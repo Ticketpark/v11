@@ -1,0 +1,17 @@
+{
+    "name": "ticketpark/v11",
+    "type": "library",
+    "description": "A php library to process ESR/BESR v11 files (Swiss payment slips / Einzahlungsscheine mit Referenznummer)",
+    "keywords": ["besr", "esr", "v11", "einzahlungsschein", "payment slip"],
+    "homepage": "https://github.com/Ticketpark/v11",
+    "license": "MIT",
+    "authors": [
+        {"name": "Manuel Reinhard", "email": "manu@sprain.ch"}
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "Ticketpark\\v11\\": "lib/v11" }
+    }
+}
