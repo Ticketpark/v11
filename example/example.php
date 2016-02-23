@@ -31,7 +31,7 @@ foreach($v11->getTransactionRecords() as $record){
             'Payment type' => $record->getTransactionCode()->getPaymentType(),
             'Amount' => $record->getSignedAmount(),
             'Full Reference number' => $record->getReferenceNumber(),
-            'Customer numeric reference number' => $record->getCustomReferenceNumber(true),
+            'Customer numeric reference number' => $record->getCustomReferenceNumber(),
             'Fee' => $record->getFee(),
         )
     );

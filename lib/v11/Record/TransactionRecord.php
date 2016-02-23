@@ -79,16 +79,9 @@ class TransactionRecord
         return substr($this->referenceNumber, 0, -1);
     }
 
-    public function getCustomReferenceNumber($numeric = false)
+    public function getCustomReferenceNumber()
     {
-        $customReferenceNumber = substr($this->getReferenceNumberWithoutCheckDigit(), strlen($this->getParticipantIdentifier()));
-
-        if ($numeric) {
-
-            return $customReferenceNumber * 1;
-        }
-
-        return $customReferenceNumber;
+        return substr($this->getReferenceNumberWithoutCheckDigit(), strlen($this->getParticipantIdentifier()));
     }
 
     public function setAmount($amount)
