@@ -229,8 +229,8 @@ class v11
                 return false;
             }
 
-            if (!preg_match('/^[\d ]+$/', $line)) {
-                $this->setError(sprintf('Line number %s contains invalid characters. It may only contain digits and spaces', $i));
+            if (!preg_match('/^[\d a-zA-Z]+$/', $line)) {
+                $this->setError(sprintf('Line number %s contains invalid characters. It may only contain digits, letters and spaces', $i));
 
                 return false;
             }
