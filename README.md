@@ -18,7 +18,7 @@ Add v11 in your composer.json:
 }
 ```
 
-Now tell composer to download the bundle by running the command:
+Now tell composer to download the library by running the command:
 
 ``` bash
 $ php composer.phar update ticketpark/v11
