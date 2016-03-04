@@ -13,7 +13,7 @@ Add v11 in your composer.json:
 ```js
 {
     "require": {
-        "ticketpark/v11": "~0.1"
+        "ticketpark/v11": "^1.0"
     }
 }
 ```
