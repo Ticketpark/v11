@@ -256,7 +256,7 @@ class v11
         // Check matches any of it
         $transactiontype = substr($lastLine, 0, 3);
         if (!in_array($transactiontype, array_merge($typesv3, $typesv4))) {
-            $this->setError(sprintf('Invalid transaction type %s', $transactiontype));
+            $this->setError(sprintf('The total line does not contain a valid transaction code'));
 
             return false;
         }
