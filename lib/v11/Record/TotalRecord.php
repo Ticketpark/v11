@@ -16,6 +16,7 @@ class TotalRecord
     protected $bankingAccount;
     protected $sortingKey;
     protected $amount;
+    protected $currency = 'CHF';
     protected $numberOfTransactions;
     protected $dateFileCreation;
     protected $totalFees;
@@ -66,6 +67,18 @@ class TotalRecord
     public function getAmount()
     {
         return $this->amount;
+    }
+
+    public function setCurrency($currency)
+    {
+        $this->currency = $currency;
+
+        return $this;
+    }
+
+    public function getCurrency()
+    {
+        return $this->currency;
     }
 
     public function getSignedAmount()
