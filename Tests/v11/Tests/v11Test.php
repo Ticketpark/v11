@@ -38,7 +38,6 @@ class v11Test extends \PHPUnit_Framework_TestCase
         $this->assertSame('123456000000001291146290519', $v11->getTransactionRecords()[0]->getReferenceNumber());
         $this->assertSame('12345600000000129114629051', $v11->getTransactionRecords()[0]->getReferenceNumberWithoutCheckDigit());
         $this->assertSame('00000000129114629051', $v11->getTransactionRecords()[0]->getCustomReferenceNumber());
-        $this->assertSame(129114629051, $v11->getTransactionRecords()[0]->getCustomReferenceNumber(true));
         $this->assertSame(75, $v11->getTransactionRecords()[0]->getAmount());
         $this->assertSame('0000000000', $v11->getTransactionRecords()[0]->getInternalBankReference());
         $this->assertSame('2014-10-24', $v11->getTransactionRecords()[0]->getDatePaid()->format('Y-m-d'));
