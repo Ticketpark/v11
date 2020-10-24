@@ -1,6 +1,6 @@
 # v11
 
-*THIS LIBRARY IS ABANDONED AND WILL NO LONGER RECEIVE UPDATES.*
+**THIS LIBRARY IS ABANDONED AND WILL NO LONGER RECEIVE UPDATES.**
 
 
 [![Build Status](https://travis-ci.org/Ticketpark/v11.svg?branch=master)](https://travis-ci.org/Ticketpark/v11)
