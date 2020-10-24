@@ -2,9 +2,6 @@
 
 **THIS LIBRARY IS ABANDONED AND WILL NO LONGER RECEIVE UPDATES.**
 
-
-[![Build Status](https://travis-ci.org/Ticketpark/v11.svg?branch=master)](https://travis-ci.org/Ticketpark/v11)
-
 This is a php library to read ESR v11 files, Swiss banking payments.<br>
 (BESR/VESR/ESR - Einzahlungsscheine mit Referenznummer einlesen)
 
