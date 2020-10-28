@@ -1,6 +1,9 @@
 # v11
 
 **THIS LIBRARY IS ABANDONED AND WILL NO LONGER RECEIVE UPDATES.**
+The v11 format is replaced by the camt format. https://github.com/genkgo/camt is a library to use for that.
+
+---
 
 This is a php library to read ESR v11 files, Swiss banking payments.<br>
 (BESR/VESR/ESR - Einzahlungsscheine mit Referenznummer einlesen)
